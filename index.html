@@ -300,21 +300,39 @@
             box-shadow:
                 0 8px 20px rgba(15, 39, 66, 0.12);
         }
-
-
         .eyebrow {
-            margin-bottom: 7px;
-
-            color: var(--text-light);
-
-            font-size: 12px;
-
+            display: inline-flex;
+            align-items: center;
+            width: fit-content;
+            margin: 0 0 8px;
+            padding: 5px 10px;
+            border-radius: 999px;
+            background: #edf4f8;
+            color: var(--primary);
+            font-size: 11px;
             font-weight: 800;
-
-            letter-spacing: 0.8px;
-
+            letter-spacing: 0.5px;
             text-transform: uppercase;
         }
+
+
+        .app-roles {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-bottom: 12px;
+        }
+
+
+        .app-role {
+            color: var(--text-light);
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 1.35;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+        }
+
 
 
         .app-card h3 {
@@ -800,8 +818,10 @@
                             ADIF
                         </div>
 
-                        <div class="eyebrow">
-                            Personal Operativo
+                        <div class="app-roles">
+                            <div class="app-role">
+                                Personal Operativo
+                            </div>
                         </div>
 
                         <h3>
@@ -879,8 +899,10 @@
                             ADIF
                         </div>
 
-                        <div class="eyebrow">
-                            Técnico y Cuadro Técnico
+                        <div class="app-roles">
+                            <div class="app-role">
+                                Técnico y Cuadro Técnico
+                            </div>
                         </div>
 
 
@@ -958,16 +980,18 @@
                             RENFE
                         </div>
 
-                        <div class="eyebrow">
-                            Operador Comercial de Ingreso N2
-                        </div>
+                        <div class="app-roles">
+                            <div class="app-role">
+                                Operador Comercial de Ingreso N2
+                            </div>
 
-                         <div class="eyebrow">
-                            Operador de Entrada de Administración y Gestión
-                        </div>
+                            <div class="app-role">
+                                Operador de Entrada de Administración y Gestión
+                            </div>
 
-                         <div class="eyebrow">
-                            Operador de Entrada de Centros de Gestión de Incidencias y Operaciones
+                            <div class="app-role">
+                                Operador de Entrada de Centros de Gestión de Incidencias y Operaciones
+                            </div>
                         </div>
 
                         <h3>
